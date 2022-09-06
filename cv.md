@@ -2,11 +2,11 @@
 ---
 ##Contacts
 
-Location: Minsk, Belarus
-Email: valentine.borodich@mail.ru
-GitHub: valentinejs
-Number: +375 (44) 77-217-35
-Discord: Valentin Borodich(@valentinejs)
+__Location__: Minsk, Belarus
+__Email__: valentine.borodich@mail.ru
+__GitHub__: valentinejs
+__Number__: +375 (44) 77-217-35
+__Discord__: Valentin Borodich (@valentinejs)
 
 ---
 
@@ -14,7 +14,7 @@ Discord: Valentin Borodich(@valentinejs)
 I'm realy interested in become a programmer. I have never seen so cool and alive community in other industry. I sure I can become a part of it.
 
 ---
-##Soft Skills
+##Skills
 
 * a bit JS
 * a bit Python
@@ -22,7 +22,7 @@ I'm realy interested in become a programmer. I have never seen so cool and alive
 
 ---
 ##Code Example
-The last task I finished:
+__The last task I finished:__
 ```
 You are given an array(list) strarr of strings and an integer k. 
 Your task is to return the first longest string consisting of k consecutive strings taken in the array.
