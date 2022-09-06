@@ -1,6 +1,6 @@
-#Valentine Borodich
+# Valentine Borodich
 ---
-##Contacts
+## Contacts
 
 __Location__: Minsk, Belarus
 __Email__: valentine.borodich@mail.ru
@@ -10,18 +10,18 @@ __Discord__: Valentin Borodich (@valentinejs)
 
 ---
 
-##About me
+## About me
 I'm realy interested in become a programmer. I have never seen so cool and alive community in other industry. I sure I can become a part of it.
 
 ---
-##Skills
+## Skills
 
 * a bit JS
 * a bit Python
 * a bit C++
 
 ---
-##Code Example
+## Code Example
 __The last task I finished:__
 ```
 You are given an array(list) strarr of strings and an integer k. 
@@ -41,14 +41,14 @@ function longestConsec(strarr, k) {
 }
 ```
 ---
-###Experience
+## Experience
 All ahead =)
 
 ---
-###Education
+## Education
 * __University__: Belarusian National Technical University
 * __Specialization__: Electrical Engineer
 
 ---
-###English level
+## English level
 A2 (I can read technical and non-technical texts, but can't speak freely)
