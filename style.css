@@ -12,9 +12,8 @@ body{
     margin: 0 auto;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid red;
     overflow: hidden;
-    background-color: rgb(255, 220, 0);
+    background-color: rgb(247,223,30);
 }
 .header .photo{
     float: left;
@@ -30,20 +29,39 @@ body{
 .main_info{
     width: 800px;
     margin: 0 auto;
-    border: 1px solid red;
-    background-color: white;
+    background-color: rgb(244,224,173);
 }
 .contacts ul{
     list-style: none;
 }
 .bold{
     font-weight: bold;
+        
 }
-.contacts, .about, .eng, .education, .skills, .experience {
+.contacts, .about, .eng, .education, .skills, .experience, .code {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
-    border-bottom: 2px solid brown;
 }
 .skills{
     box-sizing: border-box;
     
 }
+.code_example{
+    background-color: rgba(236, 167, 40, 0.738);
+    width: 75%;
+}
+.footer{
+    margin: 0 auto;
+    width: 800px;
+    background-color: rgb(255,213,65);
+    overflow: hidden;
+}
+.logo{
+    width: 100px;
+    float: left;
+}
+.head{
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+

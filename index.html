@@ -21,7 +21,7 @@
     </header>
     <main class="main_info">
         <div class="contacts">
-            <h2>Contacts</h2>        
+            <h2 class="head">Contacts</h2>        
             <ul>
                 <li><span class="bold">Location: </span>Minsk, Belarus</li>
                 <li><span class="bold">Email: </span>valentine.borodich@mail.ru</li>
@@ -31,32 +31,57 @@
             </ul>
         </div>
         <div class="about">
-            <h2>About me</h2>
-            <p>I’m realy interested in become a programmer. I have never seen so cool and alive community in other industry. I sure I can become a part of it.</p>
+            <h2 class="head">About me</h2>
+            <p>I’m realy interested in to become a programmer. I have never seen so cool and alive community in other industry. I sure I can become a part of it.</p>
         </div>
         <div class="skills">
-            <h2>Skills</h2>
+            <h2 class="head">Skills</h2>
             <ul>
                 <li>a bit JS</li>
                 <li>a bit Python</li>
                 <li>a bit C++</li>
             </ul>
         </div>
+        <div class="code">
+            <h2 class="head">Code Example</h2>
+            <p class="bold">The last task I finished:</p>
+            <p>You are given an array(list) strarr of strings and an integer k.</p> 
+            <p>Your task is to return the first longest string consisting of k consecutive strings taken in the array.</p>
+            <pre class="code_example">
+                <code>
+function longestConsec(strarr, k) {
+    if (k <= 0 || strarr === [] || k > strarr.length) return '';
+    let ans = '';
+    for (let i = 0; i < strarr.length; i++) {
+        let text = '';
+        for (let j = i; j < i + k; j++) {
+            if (typeof strarr[j] != 'undefined') text += strarr[j];
+            }
+        if (text.length > ans.length) ans = text;
+        }
+        return ans;
+    }
+                </code>
+            </pre>
+        </div>
         <div class="experience">
-            <h2>Experience</h2>
+            <h2 class="head">Experience</h2>
             <p>All ahead =)</p>
         </div>
         <div class="education">
-            <h2>Education</h2>
+            <h2 class="head">Education</h2>
             <ul>
                 <li><span class="bold">University: </span>Belarusian National Technical University</li>
                 <li><span class="bold">Specialization: </span>Electrical Engineer</li>
             </ul>
         </div>
         <div class="eng">
-            <h2>English level</h2>
+            <h2 class="head">English level</h2>
             <p>A2 (I can read technical and non-technical texts, but can’t speak freely)</p>
         </div>
     </main>
+    <footer class="footer">
+        <img class="logo" src="logo.jpg" alt="logo">
+    </footer>
 </body>
 </html>
